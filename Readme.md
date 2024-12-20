@@ -27,7 +27,7 @@ This is a Pong game client implemented in C++ using SDL2 for rendering, ASIO for
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/pong-client.git
+   git clone https://github.com/AmirHoseinMazrooei/Pong-Client.git
    ```
 
 2. **Open the Solution**
@@ -48,7 +48,10 @@ This is a Pong game client implemented in C++ using SDL2 for rendering, ASIO for
 ### Running the Game
 
 1. **Start the Pong Server**
-
+   - Clone and run the server from the Pong-Server repository.
+   ```bash
+   git clone https://github.com/AmirHoseinMazrooei/Pong-Server.git
+   ```
    - Ensure the Pong server is running and accessible at `127.0.0.1` on port `12345`.
 
 2. **Run the Client**
