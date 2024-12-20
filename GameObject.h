@@ -5,6 +5,8 @@
 #include "Component.h"
 #include <string>
 #include <SDL.h>
+#include "Transform.h"
+#include "IRenderer.h"
 
 class GameObject {
 public:
@@ -39,9 +41,9 @@ public:
         }
     }
 
-    void render(SDL_Renderer* renderer) {
-        for (auto& comp : components) {
-            comp->render(renderer);
-        }
+    void render() {
+		if (auto renderer = getComponent<IRenderer>()) {
+			renderer->Draw();
+		}
     }
 };

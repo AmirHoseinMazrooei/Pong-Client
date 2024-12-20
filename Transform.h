@@ -1,6 +1,5 @@
 #pragma once
 #include "Component.h"
-
 struct Vector2 {
     float x;
     float y;

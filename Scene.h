@@ -20,9 +20,9 @@ public:
         }
     }
 
-    void render(SDL_Renderer* renderer) {
+    void render() {
         for (auto& obj : gameObjects) {
-            obj->render(renderer);
+			obj->render();
         }
     }
 };

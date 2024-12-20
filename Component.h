@@ -9,5 +9,5 @@ public:
     virtual ~Component() = default;
 
     virtual void update() {}
-    virtual void render(SDL_Renderer* renderer) {}
+    //virtual void render(SDL_Renderer* renderer) {}
 };

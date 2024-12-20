@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "charconv": "cpp",
+        "iosfwd": "cpp",
+        "xlocbuf": "cpp",
+        "memory": "cpp"
+    }
+}
